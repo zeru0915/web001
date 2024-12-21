@@ -2,7 +2,7 @@
 /* 全局样式 */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #ADD8E6;
     color: #333;
     margin: 0;
     padding: 0;
@@ -13,11 +13,11 @@ body {
 
 /* 头部样式 */
 header {
-    background-color: #4CAF50;
+    background-color: #ADD8E6;
     color: white;
     padding: 20px;
     text-align: center;
-    width: 100%; /* 使头部宽度占满全屏 */
+    width: 50%; /* 使头部宽度占满全屏 */
 }
 
 /* 主体部分布局 */
