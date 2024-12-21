@@ -1,12 +1,54 @@
+
+/* 全局样式 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #066600;
-    color: #222;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex; /* 启用 Flexbox */
+    flex-direction: column; /* 垂直排列页面内容 */
+    align-items: center; /* 内容居中对齐 */
 }
 
+/* 头部样式 */
 header {
-    background-color: #999950;
+    background-color: #4CAF50;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+    width: 100%; /* 使头部宽度占满全屏 */
+}
+
+/* 主体部分布局 */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* 最大宽度限制，避免页面过宽 */
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 表单样式 */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px; /* 表单元素之间的间距 */
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
